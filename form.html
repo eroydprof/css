@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+        
+    </head>
+    <body>
+        <div align="center" style="border: 100;">
+            <h1 style="color: rgb(6, 6, 94); padding-top: 100;">Input Biodata</h1>
+            <hr>
+            <form action="index.html" method="post" enctype="multipart/form-data">
+            <h1 style="font-style: normal;">Biodata</h1>
+                <table border="0">
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" autofocus /></td>
+                </tr>
+                <tr>
+                    <td>N I M</td>
+                    <td>:</td>
+                    <td><input type="text" name="nim" /></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:</td>
+                    <td><input type="date" name="tgl_lahir" /></td>
+                </tr>
+                <tr>
+                    <td>Berat badan</td>
+                    <td>:</td>
+                    <td><input type="number" name="bb" /></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <select type="text" name="jenis_kelamin">
+                        <option value="Laki-laki">Laki-laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td></td>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Golongan Darah</td>
+                    <td>:</td>
+                    <td><input name="goldar" type="radio" value="O"/>O 
+                        <input name="goldar" type="radio" value="A"/>A 
+                        <input name="goldar" type="radio" value="B"/>B 
+                        <input name="goldar" type="radio"  value="AB"/>AB 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pas Photo</td>
+                    <td>:</td>
+                    <td><input name="foto" type="file" value=""/></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Input Data"></td>
+                    <td></td>
+                    <td></td>
+                </tr>   
+            </table>
+            </form>
+        </div>
+
+    </body>
+</html>
